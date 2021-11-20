@@ -1,0 +1,270 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_1S T1
+U 1 1 6197E6F0
+P 2450 3950
+F 0 "T1" H 2450 4331 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 2450 4240 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_NF_ETAL_1-1_P1200" H 2450 3950 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6197F66F
+P 3100 3850
+F 0 "D1" H 3100 3633 50  0000 C CNN
+F 1 "D" H 3100 3724 50  0000 C CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3100 3850 50  0001 C CNN
+F 3 "~" H 3100 3850 50  0001 C CNN
+	1    3100 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 619803E0
+P 3450 3850
+F 0 "D3" H 3450 3633 50  0000 C CNN
+F 1 "D" H 3450 3724 50  0000 C CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3450 3850 50  0001 C CNN
+F 3 "~" H 3450 3850 50  0001 C CNN
+	1    3450 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 61980860
+P 3100 4000
+F 0 "D2" H 3100 3783 50  0000 C CNN
+F 1 "D" H 3100 3874 50  0000 C CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3100 4000 50  0001 C CNN
+F 3 "~" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 61980E9D
+P 3450 4000
+F 0 "D4" H 3450 3783 50  0000 C CNN
+F 1 "D" H 3450 3874 50  0000 C CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3450 4000 50  0001 C CNN
+F 3 "~" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 619824E3
+P 3950 3950
+F 0 "C1" H 4041 3996 50  0000 L CNN
+F 1 "CP1_Small" H 4041 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3950 3950 50  0001 C CNN
+F 3 "~" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 619839ED
+P 4250 3800
+F 0 "R1" H 4309 3846 50  0000 L CNN
+F 1 "R_Small" H 4309 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4250 3800 50  0001 C CNN
+F 3 "~" H 4250 3800 50  0001 C CNN
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 61985309
+P 4250 4150
+F 0 "D5" V 4289 4032 50  0000 R CNN
+F 1 "LED" V 4198 4032 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4250 4150 50  0001 C CNN
+F 3 "~" H 4250 4150 50  0001 C CNN
+	1    4250 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3850 3300 3850
+Wire Wire Line
+	3250 4000 3300 4000
+Wire Wire Line
+	2950 3850 2950 3950
+Wire Wire Line
+	3600 3850 3600 3950
+Wire Wire Line
+	3250 3850 3250 3750
+Wire Wire Line
+	3250 3750 2850 3750
+Connection ~ 3250 3850
+Wire Wire Line
+	2850 4150 3250 4150
+Wire Wire Line
+	3250 4150 3250 4000
+Connection ~ 3250 4000
+Wire Wire Line
+	2950 3950 2800 3950
+Wire Wire Line
+	2800 3950 2800 4300
+Wire Wire Line
+	2800 4300 3950 4300
+Wire Wire Line
+	3950 4300 3950 4050
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 2950 4000
+Wire Wire Line
+	3600 3950 3800 3950
+Wire Wire Line
+	3800 3950 3800 3750
+Wire Wire Line
+	3800 3750 3950 3750
+Wire Wire Line
+	3950 3750 3950 3850
+Connection ~ 3600 3950
+Wire Wire Line
+	3600 3950 3600 4000
+Wire Wire Line
+	3950 3750 3950 3600
+Wire Wire Line
+	3950 3600 4250 3600
+Wire Wire Line
+	4250 3600 4250 3700
+Connection ~ 3950 3750
+Wire Wire Line
+	3950 4300 3950 4450
+Wire Wire Line
+	3950 4450 4250 4450
+Wire Wire Line
+	4250 4450 4250 4300
+Connection ~ 3950 4300
+Wire Wire Line
+	4250 4000 4250 3900
+Connection ~ 4250 3600
+Connection ~ 4250 4450
+$Comp
+L Regulator_Linear:LM78L05_TO92 U1
+U 1 1 6199C8EB
+P 5400 3600
+F 0 "U1" H 5400 3842 50  0000 C CNN
+F 1 "LM78L05_TO92" H 5400 3751 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 3825 50  0001 C CIN
+F 3 "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf" H 5400 3550 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 619B1D3F
+P 5750 3950
+F 0 "C2" H 5841 3996 50  0000 L CNN
+F 1 "CP1_Small" H 5841 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5750 3950 50  0001 C CNN
+F 3 "~" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3600 5100 3600
+Wire Wire Line
+	5400 3900 5400 4450
+Wire Wire Line
+	5700 3600 5750 3600
+Wire Wire Line
+	5750 3600 5750 3850
+Wire Wire Line
+	5400 4450 5750 4450
+Wire Wire Line
+	5750 4450 5750 4050
+Connection ~ 5400 4450
+Connection ~ 5750 3600
+Connection ~ 5750 4450
+Wire Wire Line
+	2050 3750 1750 3750
+Wire Wire Line
+	1750 3750 1750 3900
+Wire Wire Line
+	1750 4000 1750 4150
+Wire Wire Line
+	1750 4150 2050 4150
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 619D718F
+P 6750 4050
+F 0 "J2" H 6722 3932 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6722 4023 50  0000 R CNN
+F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 6750 4050 50  0001 C CNN
+F 3 "~" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 3950 6550 3600
+Wire Wire Line
+	5750 3600 6550 3600
+Wire Wire Line
+	6550 4450 6550 4050
+Wire Wire Line
+	5750 4450 6550 4450
+$Comp
+L power:AC #PWR02
+U 1 1 619DEE7A
+P 1400 3900
+F 0 "#PWR02" H 1400 3800 50  0001 C CNN
+F 1 "AC" H 1400 4175 50  0000 C CNN
+F 2 "" H 1400 3900 50  0001 C CNN
+F 3 "" H 1400 3900 50  0001 C CNN
+	1    1400 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3900 1750 3900
+$Comp
+L power:NEUT #PWR01
+U 1 1 619E345E
+P 1350 4000
+F 0 "#PWR01" H 1350 3850 50  0001 C CNN
+F 1 "NEUT" H 1365 4173 50  0000 C CNN
+F 2 "" H 1350 4000 50  0001 C CNN
+F 3 "" H 1350 4000 50  0001 C CNN
+	1    1350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4000 1750 4000
+$Comp
+L power:GNDREF #PWR03
+U 1 1 619E6048
+P 5050 4500
+F 0 "#PWR03" H 5050 4250 50  0001 C CNN
+F 1 "GNDREF" H 5055 4327 50  0000 C CNN
+F 2 "" H 5050 4500 50  0001 C CNN
+F 3 "" H 5050 4500 50  0001 C CNN
+	1    5050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4450 5050 4450
+Wire Wire Line
+	5050 4500 5050 4450
+Connection ~ 5050 4450
+Wire Wire Line
+	5050 4450 5400 4450
+$EndSCHEMATC
