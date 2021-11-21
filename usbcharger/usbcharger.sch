@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 6199590F
+P 850 1850
+F 0 "J1" H 768 1525 50  0000 C CNN
+F 1 "Screw_Terminal" H 768 1616 50  0000 C CNN
+F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 850 1850 50  0001 C CNN
+F 3 "~" H 850 1850 50  0001 C CNN
+	1    850  1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transformer:ADT1-1 TR1
+U 1 1 61996DA7
+P 1600 1800
+F 0 "TR1" H 1600 1375 50  0000 C CNN
+F 1 "240v/9v" H 1600 1466 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_NF_ETAL_1-1_P1200" H 1600 1450 50  0001 C CNN
+F 3 "https://www.minicircuits.com/pdfs/ADT1-1+.pdf" H 1600 1800 50  0001 C CNN
+	1    1600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 61999C43
+P 2550 1550
+F 0 "D3" H 2550 1333 50  0000 C CNN
+F 1 "D" H 2550 1424 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2550 1550 50  0001 C CNN
+F 3 "~" H 2550 1550 50  0001 C CNN
+	1    2550 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6199A3AA
+P 2150 1550
+F 0 "D1" H 2150 1333 50  0000 C CNN
+F 1 "D" H 2150 1424 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2150 1550 50  0001 C CNN
+F 3 "~" H 2150 1550 50  0001 C CNN
+	1    2150 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6199AA15
+P 2150 2000
+F 0 "D2" H 2150 1783 50  0000 C CNN
+F 1 "D" H 2150 1874 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2150 2000 50  0001 C CNN
+F 3 "~" H 2150 2000 50  0001 C CNN
+	1    2150 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6199AE48
+P 2550 2000
+F 0 "D4" H 2550 1783 50  0000 C CNN
+F 1 "D" H 2550 1874 50  0000 C CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2550 2000 50  0001 C CNN
+F 3 "~" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 6199BA9F
+P 2850 1850
+F 0 "C1" H 2938 1896 50  0000 L CNN
+F 1 "4500uf" H 2938 1805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 2850 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 VoltageRegulator1
+U 1 1 6199F26C
+P 4000 1050
+F 0 "VoltageRegulator1" H 4000 1292 50  0000 C CNN
+F 1 "LM7805" H 4000 1201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4000 1275 50  0001 C CIN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 4000 1000 50  0001 C CNN
+	1    4000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 619A1A21
+P 5500 1550
+F 0 "R1" H 5568 1596 50  0000 L CNN
+F 1 "1k" H 5568 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5540 1540 50  0001 C CNN
+F 3 "~" H 5500 1550 50  0001 C CNN
+	1    5500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 619A2713
+P 5500 1950
+F 0 "D5" V 5539 1832 50  0000 R CNN
+F 1 "LED" V 5448 1832 50  0000 R CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 5500 1950 50  0001 C CNN
+F 3 "~" H 5500 1950 50  0001 C CNN
+	1    5500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:USB3_A J2
+U 1 1 619A485F
+P 6550 1750
+F 0 "J2" H 6607 2467 50  0000 C CNN
+F 1 "USB3_A" H 6607 2376 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 6700 1850 50  0001 C CNN
+F 3 "~" H 6700 1850 50  0001 C CNN
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7050 1550
+NoConn ~ 7050 1650
+NoConn ~ 7050 1850
+NoConn ~ 7050 1950
+NoConn ~ 7050 2150
+NoConn ~ 7050 2250
+NoConn ~ 6450 2450
+NoConn ~ 6350 2450
+Wire Wire Line
+	7050 1350 7050 1050
+Wire Wire Line
+	7050 1050 5500 1050
+Wire Wire Line
+	5500 1050 5500 1400
+Wire Wire Line
+	5500 2100 5500 2550
+Wire Wire Line
+	5500 2550 6550 2550
+Wire Wire Line
+	6550 2550 6550 2450
+$Comp
+L Device:CP_Small C3
+U 1 1 619A7231
+P 5050 1900
+F 0 "C3" H 5138 1946 50  0000 L CNN
+F 1 "100uf" H 5138 1855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5050 1900 50  0001 C CNN
+F 3 "~" H 5050 1900 50  0001 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1800 5050 1050
+Wire Wire Line
+	5050 1050 5500 1050
+Connection ~ 5500 1050
+Wire Wire Line
+	5050 2000 5050 2550
+Wire Wire Line
+	5050 2550 5500 2550
+Connection ~ 5500 2550
+Connection ~ 5050 2550
+Connection ~ 5050 1050
+Wire Wire Line
+	4000 1350 4000 2550
+Wire Wire Line
+	4000 2550 3650 2550
+Wire Wire Line
+	2850 2550 2850 1950
+Connection ~ 4000 2550
+Wire Wire Line
+	2850 1750 2850 1050
+Wire Wire Line
+	2850 1050 3700 1050
+Wire Wire Line
+	2300 1550 2350 1550
+Wire Wire Line
+	2700 2000 2700 1750
+Wire Wire Line
+	2000 1550 2000 1750
+Wire Wire Line
+	2300 2000 2350 2000
+Wire Wire Line
+	1800 1600 1800 1300
+Wire Wire Line
+	1800 1300 2350 1300
+Wire Wire Line
+	2350 1300 2350 1550
+Connection ~ 2350 1550
+Wire Wire Line
+	2350 1550 2400 1550
+Wire Wire Line
+	1800 2000 1800 2300
+Wire Wire Line
+	1800 2300 2350 2300
+Wire Wire Line
+	2350 2300 2350 2000
+Connection ~ 2350 2000
+Wire Wire Line
+	2350 2000 2400 2000
+Wire Wire Line
+	2000 1750 1900 1750
+Wire Wire Line
+	1900 1750 1900 2550
+Wire Wire Line
+	1900 2550 2850 2550
+Connection ~ 2000 1750
+Wire Wire Line
+	2000 1750 2000 2000
+Connection ~ 2850 2550
+Wire Wire Line
+	2700 1750 2750 1750
+Wire Wire Line
+	2750 1750 2750 1050
+Wire Wire Line
+	2750 1050 2850 1050
+Connection ~ 2700 1750
+Wire Wire Line
+	2700 1750 2700 1550
+Connection ~ 2850 1050
+Wire Wire Line
+	1050 1750 1050 1600
+Wire Wire Line
+	1050 1600 1400 1600
+Wire Wire Line
+	1400 2000 1050 2000
+Wire Wire Line
+	1050 2000 1050 1850
+Wire Wire Line
+	5500 1700 5500 1800
+$Comp
+L Device:C C2
+U 1 1 619E1C64
+P 4450 1900
+F 0 "C2" H 4565 1946 50  0000 L CNN
+F 1 "47uf" H 4565 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 4488 1750 50  0001 C CNN
+F 3 "~" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1050 4450 1050
+Wire Wire Line
+	4450 1750 4450 1050
+Connection ~ 4450 1050
+Wire Wire Line
+	4450 1050 5050 1050
+Wire Wire Line
+	4000 2550 4450 2550
+Wire Wire Line
+	4450 2050 4450 2550
+Connection ~ 4450 2550
+Wire Wire Line
+	4450 2550 5050 2550
+$Comp
+L power:GND #PWR?
+U 1 1 61A00C43
+P 3650 2650
+F 0 "#PWR?" H 3650 2400 50  0001 C CNN
+F 1 "GND" H 3655 2477 50  0000 C CNN
+F 2 "" H 3650 2650 50  0001 C CNN
+F 3 "" H 3650 2650 50  0001 C CNN
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2650 3650 2550
+Connection ~ 3650 2550
+Wire Wire Line
+	3650 2550 2850 2550
+$EndSCHEMATC
