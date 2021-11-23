@@ -1,0 +1,642 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US R1
+U 1 1 619BEFA3
+P 1700 2100
+F 0 "R1" H 1768 2146 50  0000 L CNN
+F 1 "R_Small_US" H 1768 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 619BF5BF
+P 2600 1450
+F 0 "D1" V 2646 1370 50  0000 R CNN
+F 1 "D" V 2555 1370 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2600 1450 50  0001 C CNN
+F 3 "~" H 2600 1450 50  0001 C CNN
+	1    2600 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 619BFAFD
+P 2600 2150
+F 0 "D2" V 2646 2070 50  0000 R CNN
+F 1 "D" V 2555 2070 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2600 2150 50  0001 C CNN
+F 3 "~" H 2600 2150 50  0001 C CNN
+	1    2600 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 619BFF32
+P 3550 1900
+F 0 "R5" V 3345 1900 50  0000 C CNN
+F 1 "R_Small_US" V 3436 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3550 1900 50  0001 C CNN
+F 3 "~" H 3550 1900 50  0001 C CNN
+	1    3550 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 619C060D
+P 3400 2550
+F 0 "R3" H 3332 2504 50  0000 R CNN
+F 1 "R_Small_US" H 3332 2595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 2550 50  0001 C CNN
+F 3 "~" H 3400 2550 50  0001 C CNN
+	1    3400 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:TIP42 Q5
+U 1 1 619C231B
+P 4450 1900
+F 0 "Q5" H 4641 1946 50  0000 L CNN
+F 1 "TIP42" H 4641 1855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4700 1825 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 4450 1900 50  0001 L CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:TIP41 Q7
+U 1 1 619C2B27
+P 5800 1900
+F 0 "Q7" H 5991 1946 50  0000 L CNN
+F 1 "TIP41" H 5991 1855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6050 1825 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 5800 1900 50  0001 L CNN
+	1    5800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2SC4213 Q8
+U 1 1 619C3B7A
+P 7100 1850
+F 0 "Q8" H 7290 1896 50  0000 L CNN
+F 1 "2SC4213" H 7290 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 7300 1775 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213" H 7100 1850 50  0001 L CNN
+	1    7100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 619C4BED
+P 6700 2400
+F 0 "R10" H 6768 2446 50  0000 L CNN
+F 1 "R_Small_US" H 6768 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 2400 50  0001 C CNN
+F 3 "~" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 619C529C
+P 6700 3250
+F 0 "R11" H 6768 3296 50  0000 L CNN
+F 1 "R_Small_US" H 6768 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 3250 50  0001 C CNN
+F 3 "~" H 6700 3250 50  0001 C CNN
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 619C5E35
+P 8100 2400
+F 0 "R12" H 8170 2446 50  0000 L CNN
+F 1 "R" H 8170 2355 50  0000 L CNN
+F 2 "Resistor_THT:R_Radial_Power_L7.0mm_W8.0mm_Px2.40mm_Py2.30mm" V 8030 2400 50  0001 C CNN
+F 3 "~" H 8100 2400 50  0001 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 619C63B6
+P 8100 3250
+F 0 "R13" H 8170 3296 50  0000 L CNN
+F 1 "R" H 8170 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Radial_Power_L7.0mm_W8.0mm_Px2.40mm_Py2.30mm" V 8030 3250 50  0001 C CNN
+F 3 "~" H 8100 3250 50  0001 C CNN
+	1    8100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 619C6A3A
+P 4950 2450
+F 0 "D3" V 4996 2370 50  0000 R CNN
+F 1 "D" V 4905 2370 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 4950 2450 50  0001 C CNN
+F 3 "~" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 619C72E6
+P 4950 3300
+F 0 "D4" V 4996 3220 50  0000 R CNN
+F 1 "D" V 4905 3220 50  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 4950 3300 50  0001 C CNN
+F 3 "~" H 4950 3300 50  0001 C CNN
+	1    4950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 619C7892
+P 5800 2800
+F 0 "R9" V 5595 2800 50  0000 C CNN
+F 1 "R_Small_US" V 5686 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 2800 50  0001 C CNN
+F 3 "~" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 619C81B7
+P 3800 2850
+F 0 "R6" V 3595 2850 50  0000 C CNN
+F 1 "R_Small_US" V 3686 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 2850 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 619C9A15
+P 4300 2500
+F 0 "C2" V 4048 2500 50  0000 C CNN
+F 1 "CP1" V 4139 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 4300 2500 50  0001 C CNN
+F 3 "~" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 619CA26F
+P 1700 3600
+F 0 "C1" V 1448 3600 50  0000 C CNN
+F 1 "CP1" V 1539 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 1700 3600 50  0001 C CNN
+F 3 "~" H 1700 3600 50  0001 C CNN
+	1    1700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 619CBA42
+P 2750 4350
+F 0 "R2" H 2682 4304 50  0000 R CNN
+F 1 "R_Small_US" H 2682 4395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2750 4350 50  0001 C CNN
+F 3 "~" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:TIP41 Q4
+U 1 1 619CCA5D
+P 4350 4200
+F 0 "Q4" H 4541 4246 50  0000 L CNN
+F 1 "TIP41" H 4541 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4600 4125 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 4350 4200 50  0001 L CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:TIP42 Q6
+U 1 1 619CE31E
+P 5400 4150
+F 0 "Q6" H 5591 4104 50  0000 L CNN
+F 1 "TIP42" H 5591 4195 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5650 4075 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 5400 4150 50  0001 L CNN
+	1    5400 4150
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2SD600 Q9
+U 1 1 619D0C35
+P 7250 4100
+F 0 "Q9" H 7442 4054 50  0000 L CNN
+F 1 "2SD600" H 7442 4145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 7450 4025 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 7250 4100 50  0001 L CNN
+	1    7250 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 619D41ED
+P 2600 2650
+F 0 "Q2" V 2835 2650 50  0000 C CNN
+F 1 "2N3904" V 2926 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2800 2575 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2600 2650 50  0001 L CNN
+	1    2600 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q3
+U 1 1 619D4E57
+P 3250 3900
+F 0 "Q3" H 3441 3854 50  0000 L CNN
+F 1 "2N3904" H 3441 3945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3450 3825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3250 3900 50  0001 L CNN
+	1    3250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 619D59B3
+P 2550 3900
+F 0 "Q1" H 2740 3854 50  0000 L CNN
+F 1 "2N3904" H 2740 3945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2750 3825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2550 3900 50  0001 L CNN
+	1    2550 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR01
+U 1 1 619D7771
+P 1100 4300
+F 0 "#PWR01" H 1100 4050 50  0001 C CNN
+F 1 "GNDREF" H 1105 4127 50  0000 C CNN
+F 2 "" H 1100 4300 50  0001 C CNN
+F 3 "" H 1100 4300 50  0001 C CNN
+	1    1100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR03
+U 1 1 619D8D34
+P 7800 1100
+F 0 "#PWR03" H 7800 1000 50  0001 C CNN
+F 1 "+VDC" H 7800 1375 50  0000 C CNN
+F 2 "" H 7800 1100 50  0001 C CNN
+F 3 "" H 7800 1100 50  0001 C CNN
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 619DB4E9
+P 4550 1400
+F 0 "R8" H 4618 1446 50  0000 L CNN
+F 1 "R_Small_US" H 4618 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4550 1400 50  0001 C CNN
+F 3 "~" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-VDC #PWR05
+U 1 1 619DC730
+P 8250 5100
+F 0 "#PWR05" H 8250 5000 50  0001 C CNN
+F 1 "-VDC" H 8250 5375 50  0000 C CNN
+F 2 "" H 8250 5100 50  0001 C CNN
+F 3 "" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2000 1700 1100
+Wire Wire Line
+	1700 1100 2600 1100
+Wire Wire Line
+	2600 1300 2600 1100
+Connection ~ 2600 1100
+Wire Wire Line
+	2600 1100 4550 1100
+Wire Wire Line
+	2600 2000 2600 1600
+Wire Wire Line
+	2600 2300 2600 2350
+Wire Wire Line
+	2600 2350 3400 2350
+Wire Wire Line
+	3400 2350 3400 2450
+Connection ~ 2600 2350
+Wire Wire Line
+	2600 2350 2600 2450
+Wire Wire Line
+	3400 2350 3400 1900
+Wire Wire Line
+	3400 1900 3450 1900
+Connection ~ 3400 2350
+Wire Wire Line
+	3650 1900 4250 1900
+Wire Wire Line
+	4550 1700 4550 1500
+Wire Wire Line
+	4550 1300 4550 1100
+Connection ~ 4550 1100
+Wire Wire Line
+	4550 2100 4550 2150
+Wire Wire Line
+	4550 2150 4950 2150
+Wire Wire Line
+	5400 2150 5400 1900
+Wire Wire Line
+	5400 1900 5600 1900
+Wire Wire Line
+	4550 1100 5900 1100
+Wire Wire Line
+	5900 1700 5900 1100
+Connection ~ 5900 1100
+Wire Wire Line
+	5900 1100 7700 1100
+Wire Wire Line
+	5900 2100 6700 2100
+Wire Wire Line
+	6700 2100 6700 1850
+Wire Wire Line
+	6700 1850 6900 1850
+Wire Wire Line
+	7200 1650 7700 1650
+Wire Wire Line
+	7700 1650 7700 1100
+Connection ~ 7700 1100
+Wire Wire Line
+	7700 1100 7800 1100
+Wire Wire Line
+	7200 2050 7200 2250
+Wire Wire Line
+	7200 2250 8100 2250
+Wire Wire Line
+	8100 3100 8100 2800
+Wire Wire Line
+	6700 2300 6700 2100
+Connection ~ 6700 2100
+Wire Wire Line
+	6700 3150 6700 2800
+Wire Wire Line
+	4950 2300 4950 2150
+Connection ~ 4950 2150
+Wire Wire Line
+	4950 2150 5400 2150
+Wire Wire Line
+	5900 2800 6700 2800
+Connection ~ 6700 2800
+Wire Wire Line
+	6700 2800 6700 2500
+Wire Wire Line
+	6700 2800 8100 2800
+Connection ~ 8100 2800
+Wire Wire Line
+	8100 2800 8100 2550
+Wire Wire Line
+	4950 2600 4950 3150
+Wire Wire Line
+	5700 2800 4600 2800
+Wire Wire Line
+	4450 2800 4450 2500
+Wire Wire Line
+	4150 2500 4150 2900
+Wire Wire Line
+	4150 2900 3900 2900
+Wire Wire Line
+	3900 2900 3900 2850
+Wire Wire Line
+	3700 2850 3400 2850
+$Comp
+L Device:R_Small_US R4
+U 1 1 61A52232
+P 3400 3200
+F 0 "R4" H 3332 3154 50  0000 R CNN
+F 1 "R_Small_US" H 3332 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 2650 3400 2850
+Connection ~ 3400 2850
+Wire Wire Line
+	3400 2850 3400 3100
+Wire Wire Line
+	2350 3900 2050 3900
+Wire Wire Line
+	2050 3900 2050 3400
+Wire Wire Line
+	2050 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 3300
+Wire Wire Line
+	3450 3900 4600 3900
+Wire Wire Line
+	4600 3900 4600 2800
+Connection ~ 4600 2800
+Wire Wire Line
+	4600 2800 4450 2800
+Wire Wire Line
+	2800 2750 2800 3600
+Wire Wire Line
+	2800 3600 2900 3600
+Wire Wire Line
+	2650 3700 2900 3700
+Wire Wire Line
+	2900 3600 2900 3700
+Connection ~ 2900 3700
+Wire Wire Line
+	2900 3700 3150 3700
+Wire Wire Line
+	2050 3900 1900 3900
+Wire Wire Line
+	1900 3900 1900 3600
+Wire Wire Line
+	1900 3600 1850 3600
+Connection ~ 2050 3900
+$Comp
+L Device:R_POT_US RV1
+U 1 1 61A698E3
+P 1300 4050
+F 0 "RV1" V 1187 4050 50  0000 C CNN
+F 1 "R_POT_US" V 1096 4050 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 1300 4050 50  0001 C CNN
+F 3 "~" H 1300 4050 50  0001 C CNN
+	1    1300 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 3900 1300 3600
+Wire Wire Line
+	1300 3600 1550 3600
+Wire Wire Line
+	1150 4050 1100 4050
+Wire Wire Line
+	1100 4050 1100 4300
+Wire Wire Line
+	2650 4100 2650 4150
+Wire Wire Line
+	2650 4150 2750 4150
+Wire Wire Line
+	2750 4150 2750 4250
+Wire Wire Line
+	2750 4450 2750 4550
+Wire Wire Line
+	2750 4550 2900 4550
+Wire Wire Line
+	3100 4100 3150 4100
+Wire Wire Line
+	3100 4100 3100 4550
+Wire Wire Line
+	2750 4150 4150 4150
+Wire Wire Line
+	4150 4150 4150 4200
+Connection ~ 2750 4150
+Wire Wire Line
+	4450 4000 4950 4000
+Wire Wire Line
+	4950 4000 4950 3450
+Wire Wire Line
+	4950 4000 4950 4150
+Wire Wire Line
+	4950 4150 5200 4150
+Connection ~ 4950 4000
+$Comp
+L Device:R_Small_US R7
+U 1 1 61A82543
+P 4450 4800
+F 0 "R7" H 4382 4754 50  0000 R CNN
+F 1 "R_Small_US" H 4382 4845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4450 4800 50  0001 C CNN
+F 3 "~" H 4450 4800 50  0001 C CNN
+	1    4450 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4700 4450 4400
+Wire Wire Line
+	7350 3900 7350 3650
+Wire Wire Line
+	7350 3650 8150 3650
+Wire Wire Line
+	8150 3650 8150 3600
+Wire Wire Line
+	8150 3600 8100 3600
+Wire Wire Line
+	8100 3600 8100 3400
+Wire Wire Line
+	5500 3950 5500 3600
+Wire Wire Line
+	5500 3600 6700 3600
+Wire Wire Line
+	6700 3600 6700 3350
+Wire Wire Line
+	6700 3600 6700 4100
+Wire Wire Line
+	6700 4100 7050 4100
+Connection ~ 6700 3600
+Wire Wire Line
+	8250 5100 7350 5100
+Wire Wire Line
+	7350 5100 7350 4300
+Wire Wire Line
+	7350 5100 5500 5100
+Wire Wire Line
+	5500 5100 5500 4350
+Connection ~ 7350 5100
+Wire Wire Line
+	5500 5100 4450 5100
+Wire Wire Line
+	4450 5100 4450 4900
+Connection ~ 5500 5100
+Wire Wire Line
+	4450 5100 2900 5100
+Wire Wire Line
+	2900 5100 2900 4550
+Connection ~ 4450 5100
+Connection ~ 2900 4550
+Wire Wire Line
+	2900 4550 3100 4550
+Wire Wire Line
+	2400 2750 2250 2750
+Wire Wire Line
+	2250 2750 2250 2550
+Wire Wire Line
+	2250 2550 1700 2550
+Wire Wire Line
+	1700 2550 1700 2200
+$Comp
+L power:GNDREF #PWR02
+U 1 1 61AADFE2
+P 3150 2850
+F 0 "#PWR02" H 3150 2600 50  0001 C CNN
+F 1 "GNDREF" H 3155 2677 50  0000 C CNN
+F 2 "" H 3150 2850 50  0001 C CNN
+F 3 "" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2850 3200 2750
+Wire Wire Line
+	3200 2750 3150 2750
+Wire Wire Line
+	3150 2750 3150 2850
+Wire Wire Line
+	3200 2850 3400 2850
+$Comp
+L Device:Speaker LS1
+U 1 1 61AB407B
+P 8600 2800
+F 0 "LS1" H 8770 2796 50  0000 L CNN
+F 1 "Speaker" H 8770 2705 50  0000 L CNN
+F 2 "Buzzer_Beeper:Speaker_CUI_CMR-1206S-67" H 8600 2600 50  0001 C CNN
+F 3 "~" H 8590 2750 50  0001 C CNN
+	1    8600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2800 8400 2800
+Wire Wire Line
+	8400 2900 8250 2900
+Wire Wire Line
+	8250 2900 8250 3000
+$Comp
+L power:GNDREF #PWR04
+U 1 1 61ABB568
+P 8250 3000
+F 0 "#PWR04" H 8250 2750 50  0001 C CNN
+F 1 "GNDREF" H 8255 2827 50  0000 C CNN
+F 2 "" H 8250 3000 50  0001 C CNN
+F 3 "" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
